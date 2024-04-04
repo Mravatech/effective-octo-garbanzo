@@ -1,8 +1,9 @@
 module AuthenticationHelper
     SECRET_KEY = Rails.application.secrets.secret_key_base
+    identifier = ENV['AUTH_IDENTIFER']
 
     def generate_jwt_token
-        payload = { identifier: 'simple_drive' } # your identifier
+        payload = { identifier: identifier } # your identifier
         JWT.encode(payload, SECRET_KEY, 'HS256')
     end
 

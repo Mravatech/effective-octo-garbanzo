@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A Ruby on Rails application that provides APIs to store and  
+retrieve objects/files using an id, name or a path.
 
-Things you may want to cover:
+Requirement
 
-* Ruby version
+Amazon S3 Credentials needs to be added in the **.env**
 
-* System dependencies
+Authentication Identifier needs to be set in the .env
 
-* Configuration
+DB Credential can be update in `config/database.yml`
 
-* Database creation
+Migration needs to run
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+run `rails server` to start app
