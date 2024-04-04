@@ -1,4 +1,3 @@
-# app/services/s3_service.rb
 require 'net/http'
 require 'uri'
 require 'base64'
