@@ -14,3 +14,14 @@ DB Credential can be update in `config/database.yml`
 Migration needs to run
 
 run `rails server` to start app
+
+
+# Note
+
+The Storage service support the following methods:
+- AWS S3, the original.
+- Minio, open-source and built in Golang.
+- Digital Ocean Spaces.
+- Linode Object Storage.
+
+Tested with S3 and Digital Ocean Spaces.
